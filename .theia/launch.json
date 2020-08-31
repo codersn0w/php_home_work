@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "name": "Launch currently open script",
+        "type": "php",
+        "request": "launch",
+        "program": "${file}",
+        "stopOnEntry": true,
+        "cwd": "${fileDirname}",
+        "port": 9000,
+        "runtimeExecutable": "php"
+    }
+]
+}
